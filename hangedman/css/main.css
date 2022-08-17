@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;1,300;1,400;1,900&family=Roboto:wght@100;700;900&display=swap');
+
+*{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Nunito;
+
+}
+
+ul{
+    margin: 30px 10px;
+    display: flex;
+    /* flex-direction: row; */
+    /* margin: 10px; */
+    /* justify-content: space-between; */
+    list-style: none;
+}
+
+#endFace {
+    border-radius: 80%;
+}
+
+#truecharlist li {
+    margin: 0 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(8, 83, 83);
+    border: 10px solid rgb(225, 255, 255);
+    outline: 1px solid rgb(8, 83, 83);
+    text-align: center;
+    padding: 10px 0 20px;
+}
+
+a {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    /* margin-top: 60px; */
+    font-family: Nunito;
+    color: rgb(228, 0, 38);
+    /* border-bottom: solid 1px rgb(228, 0, 38); */
+    background-color: rgba(19, 0, 87, 0.758);
+    border-radius: 40px;
+    font-size: 40px;
+    padding: 10px 30px;
+    cursor: pointer;
+    white-space: nowrap;
+    margin:0 auto
+}
+
+a:hover {
+    color: rgb(255, 137, 47);
+}
+
+a:active {
+    color: rgb(35, 146, 244);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#gameheader {
+    border-top: solid 1px darkblue;
+    border-bottom: solid 1px darkblue;
+    margin-top: 30px;
+    font-family: Nunito;
+    color: rgb(6, 2, 75);
+    font-size: 3rem;
+    font-weight: light;
+    padding: 10px;
+
+}
+#headfalse{ 
+    border-top: solid 1px rgb(93, 1, 23);
+    border-bottom: solid 1px rgb(93, 1, 23);
+    font-family: Nunito;
+    color: rgb(93, 1, 23);
+    font-size: 3rem;
+    font-weight: light;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* height: ; */
+    /* background-color: aqua; */
+}
+
+/* #falsecharlist {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+    height: 400px;
+    width: fit-content;
+} */
+
+#falsecharlist li {
+    margin-top: 0px;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    background-color:rgb(114, 9, 1);    
+    border: 10px solid rgb(255, 46, 19);
+    outline: 1px solid rgb(130, 10, 1);
+    text-align: center;
+    padding: 10px 0 20px;
+}
+
+input {
+    margin: 50px;
+    border: 10px solid rgb(8, 83, 83);
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: rgb(225, 255, 255);
+    color: rgb(0, 62, 62);
+    text-align: center;
+}
+
+#guessbtn {
+    margin: 30px;
+    border: 3px solid rgb(205, 14, 59);
+    border-radius: 40px;
+    padding: 18px 10px;
+    width: 350px;
+    height: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #fff;
+    color: rgb(209, 14, 60);
+    text-align: center;
+}
+
+button:active {
+    color: #fff;
+    background-color: rgb(172, 17, 53);
+}
+
+.clues{
+    display: flex;
+    justify-content: space-e;
+}
